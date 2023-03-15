@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-around;  
 }
 .hero-left {
     display: flex;

@@ -7,9 +7,9 @@ import './Home.css'
 const Home = () => {
   return (
     <>
-    {/* <div className="navbar-container">
+    <div className="navbar-container">
       <Navbar />
-    </div> */}
+    </div>
     <div className="hero1-container">
       <Hero />
     </div>
