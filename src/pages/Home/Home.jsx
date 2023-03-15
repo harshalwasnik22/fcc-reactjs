@@ -10,7 +10,7 @@ const Home = () => {
     {/* <div className="navbar-container">
       <Navbar />
     </div> */}
-    <div className="container mx-auto">
+    <div className="hero1-container">
       <Hero />
     </div>
     </>

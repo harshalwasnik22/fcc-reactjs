@@ -3,15 +3,30 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: mont;
+    text-decoration: none;
+    outline:0;
+    list-style: none;
+    box-sizing: border-box;
   }
 
-@font-face {
+/* @font-face {
     font-family: monument;
     src: url(./Font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
-  }
+  } */
   
   @font-face {
     font-family: mont;
     src: url(./Font/Montserrat/Montserrat-VariableFont_wght.ttf);
   }
+
+body{
+  font-family: mont;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img{
+  display: block;
+  object-fit: cover;
+  width: 100%;  
+}

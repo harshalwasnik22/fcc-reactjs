@@ -1,0 +1,104 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.hero-left {
+    display: flex;
+    flex:1; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-left .hero-text {
+    color: white;
+    font-size: 1.1rem;
+    font-family: mont;
+}
+
+.hero-left .hero-text p {
+    width: 37.25rem;
+    max-width: 100%;
+    color: #eee;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-top: 0;
+    letter-spacing: 0.05rem;
+}
+
+.hero-left .hero-text button {
+    background-color: transparent;
+    font-size: 19px;
+    border: 2px solid white;
+    color: white;
+    font-family: mont;
+    border-radius: 30px;
+    padding: 10px 30px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.hero-left .hero-text button:hover {
+    color: #49FE97;
+    transition: 0.4s;
+    border: 2px solid white;
+    background: transparent;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes pulse {
+	25% {
+		transform: scale(1.1);
+	}
+
+	75% {
+		transform: scale(1);
+	}
+}
+
+h3 {
+    font-family: mont;
+    color: #eee;
+    text-align: justify;
+    margin-right: 0.5rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 17px;
+    padding: 14px;
+
+}
+
+.social a {
+    width: 37px;
+    height: 37px;
+    display: inline-flex;
+    align-items: center;
+    color: #49FE97;
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.social a:hover {
+    color: aqua;
+}
+
+.text-scramble {
+    color: #49FE97;
+    font-family: mont;
+    font-size: 2.3rem;
+    letter-spacing: 2.5px;
+}
+
+.hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

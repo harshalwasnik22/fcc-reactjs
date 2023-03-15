@@ -3,6 +3,7 @@ body {
     height: 100vh;
     margin: 0rem;
     overflow: hidden; 
+    font-family: mont;
   }
   
   @keyframes rotate {
@@ -40,18 +41,5 @@ body {
     z-index: 2;
     backdrop-filter: blur(9vmax);
   }
-  
-  h1 {
-    font-family: 'Space Mono', monospace;
-    font-size: clamp(3rem, 10vw, 10rem);
-    color: white;
-    padding: 0rem clamp(1rem, 2vw, 3rem);
-    border-radius: clamp(0.4rem, 0.75vw, 1rem);
-    margin: 0rem;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    translate: -50% -50%;
-    z-index: 3;
-  }
+
 
