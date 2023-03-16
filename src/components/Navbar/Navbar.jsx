@@ -34,9 +34,11 @@ const Navbar = () => {
         <ul className="nav__list">
           <li className="nav__list-item active-nav"><a href="#" >home</a></li>
           <li className="nav__list-item"><a href="#" >About</a></li>
+          <li className="nav__list-item"><a href="#" >Services</a></li>
+          <li className="nav__list-item"><a href="#" >Events</a></li>
           <li className="nav__list-item"><a href="#" >Sponsors</a></li>
           <li className="nav__list-item"><a href="#" >Timeline</a></li>
-          <li className="nav__list-item"><a href="#" ></a></li>
+          <li className="nav__list-item"><a href="#" >Team</a></li>
           <li className="nav__list-item"><a href="#" >contact us</a></li>
 			  </ul>
         </div>
