@@ -15,12 +15,12 @@ const Navbar = () => {
       <header className="cd-header">
         <div className="header-wrapper">
           <div className="logo-wrap">
-            <a href="#" className="hover-target">
-              <span>your</span>logo
+            <a href="#">
+              <span>FCC</span>
             </a>
           </div>
           <div className="nav-but-wrap">
-            <div className="menu-icon hover-target" onClick={toggleClass}>
+            <div className="menu-icon " onClick={toggleClass}>
               <span className="menu-icon__line menu-icon__line-left"></span>
               <span className="menu-icon__line"></span>
               <span className="menu-icon__line menu-icon__line-right"></span>
@@ -32,10 +32,12 @@ const Navbar = () => {
       <div className="nav">
         <div className="nav__content">
         <ul className="nav__list">
-          <li className="nav__list-item active-nav"><a href="#" className="hover-target">home</a></li>
-          <li className="nav__list-item"><a href="#" className="hover-target">studio</a></li>
-          <li className="nav__list-item"><a href="#" className="hover-target">news</a></li>
-          <li className="nav__list-item"><a href="#" className="hover-target">contact</a></li>
+          <li className="nav__list-item active-nav"><a href="#" >home</a></li>
+          <li className="nav__list-item"><a href="#" >About</a></li>
+          <li className="nav__list-item"><a href="#" >Sponsors</a></li>
+          <li className="nav__list-item"><a href="#" >Timeline</a></li>
+          <li className="nav__list-item"><a href="#" ></a></li>
+          <li className="nav__list-item"><a href="#" >contact us</a></li>
 			  </ul>
         </div>
       </div>
