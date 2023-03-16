@@ -1,8 +1,9 @@
 .hero{
     height: 100vh;
-    display: flex;
+    display: grid;
     width: 100%;
-    justify-content: space-around;  
+    justify-content: space-around;
+    grid-template-columns: 45% 45% ;  
 }
 .hero-left {
     display: flex;
